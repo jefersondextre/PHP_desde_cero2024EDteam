@@ -1,8 +1,7 @@
 <?php
 class Model
 {
-    public function buildString()
-    {
+    public function buildString(){
         //Video 2.4 Reflection permite inspeccionar caracteristicas de una clase en tiempo de ejecucion.
         $me = new ReflectionClass($this);
         // dd($me->getProperties());
@@ -24,8 +23,7 @@ class Model
         return $string;
     }
 
-    public function save($name = null)
-    {
+    public function save($name = null){
         if (is_null($name)) {
             $me = new ReflectionClass($this);
             $filename = $me->getName();

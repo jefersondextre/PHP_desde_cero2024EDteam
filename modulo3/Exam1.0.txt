@@ -1,6 +1,0 @@
-topic:Examen de PHP
- 
-info:PHP 8.0
- 
-completed:
- 

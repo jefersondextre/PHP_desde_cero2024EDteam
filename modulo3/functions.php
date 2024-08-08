@@ -8,8 +8,7 @@ function dd($value){
 }
 
 
-function getAllTasks($pdo)
-{
+function getAllTasks($pdo){
     $query = $pdo->prepare("SELECT * FROM `tasks`");
     $query->execute();
     //? PDO devuelve el array como indexado y asociativo. Para evitar este comportamiento

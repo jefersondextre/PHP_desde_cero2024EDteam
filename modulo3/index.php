@@ -1,8 +1,4 @@
-
 <?php
-//
-
-
 
 ini_set('display_errors',1);
 ini_set('display_startup_errors',1);
@@ -10,6 +6,7 @@ error_reporting(E_ALL);
 // cuando llames a functions desde Task comenta esta llamada
 require './database/Connection.php';
 // require 'functions.php';
+
 require "./models/Task.php";
 require 'Enums/ColorEnums.php';
 // Definicion basica de como se crea una instancia de la clase.
